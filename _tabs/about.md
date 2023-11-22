@@ -15,10 +15,10 @@ Ma passion se niche dans les domaines complexes de la cryptographie, du pentesti
 Je partage avec vous mes premiers jalons sur le chemin de la maîtrise en cybersécurité. Ces scores, bien que modestes, marquent le début d'une aventure prometteuse :
 
 
-| Plateforme | Pseudo           |               Rang |
-|:-----------|:-----------------|-------------------:|
-| RootMe     | azureeen         | 67633 (180 points) |
-| TryHackMe  | trochon.arthurpr |  214394 (Niveau 5) |
+| Plateforme | Pseudo   |             Rang | Other                                | 
+|:-----------|:---------|-----------------:|:-------------------------------------|
+| RootMe     | azureeen |  67633 (180 pts) |                                      |
+| TryHackMe  | azureeen | 94282 (4926 pts) | Hacking Streak 20 days on 22/11/2023 |
 
 Ils représentent non seulement mon engagement à apprendre, mais aussi l'évolution constante de mes compétences. Ces chiffres sont appelés à croître, alors revenez souvent pour suivre mon parcours.
 
