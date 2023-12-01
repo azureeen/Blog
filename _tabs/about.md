@@ -4,35 +4,34 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Bienvenue dans le monde numérique d'**Azureeen**, une odyssée passionnée à travers les méandres de la cybersécurité. Sans histoire ni passé, Azureeen représente la curiosité insatiable et l'engagement envers un monde numérique plus sûr.
+Welcome to the digital world of **Azureeen**, a passionate odyssey through the intricacies of cybersecurity. Without history or past, Azureeen represents insatiable curiosity and commitment to a safer digital world.
 
-## Expertise et Exploration
+## Expertise and Exploration
 
-Ma passion se niche dans les domaines complexes de la cryptographie, du pentesting et de la protection des entreprises. En quête permanente de connaissances, je me prépare actuellement à obtenir la certification CEH, avec d'autres certifications en ligne de mire. Chaque jour est une étape de plus vers l'excellence dans ce domaine fascinant.
+My passion lies in the complex fields of cryptography, pentesting, and corporate protection. In a constant quest for knowledge, I am currently preparing to obtain the CEH certification, with other certifications on the horizon. Each day is a step further towards excellence in this fascinating field.
 
-## Scores en Cybersécurité
+## Cybersecurity Scores
 
-Je partage avec vous mes premiers jalons sur le chemin de la maîtrise en cybersécurité. Ces scores, bien que modestes, marquent le début d'une aventure prometteuse :
+I share with you my initial milestones on the path to mastery in cybersecurity. These scores, albeit modest, mark the beginning of a promising adventure:
 
 
-| Plateforme | Pseudo   | Rang             | Other                                | 
-|:-----------|:---------|:-----------------|:-------------------------------------|
-| RootMe     | azureeen | 67633 (180 pts)  |                                      |
-| TryHackMe  | azureeen | 94282 (4926 pts) | Hacking Streak 20 days on 22/11/2023 |
+| Platform   | Username | Rank              | Other                                 | 
+|:-----------|:---------|:------------------|:--------------------------------------|
+| RootMe     | azureeen | 67633 (180 pts)   |                                       |
+| TryHackMe  | azureeen | 83177 (5570 pts)  | Hacking Streak 29 days on 22/11/2023  |
 
-Ils représentent non seulement mon engagement à apprendre, mais aussi l'évolution constante de mes compétences. Ces chiffres sont appelés à croître, alors revenez souvent pour suivre mon parcours.
+They represent not only my commitment to learning but also the constant evolution of my skills. These numbers are set to grow, so come back often to follow my journey.
 
-## Philosophie et Contributions
+## Philosophy and Contributions
 
-Mon attrait pour la cybersécurité s'ancre dans le désir de contribuer à un espace numérique plus sûr. Mes objectifs sont clairs :
+My attraction to cybersecurity is rooted in the desire to contribute to a safer digital space. My goals are clear:
 
-- **Apprentissage par l'écriture** : Transformer les leçons apprises en articles enrichissants.
-- **Vitrine de compétences** : Démontrer une gamme étendue de sujets et de compétences en cybersécurité.
-- **Partage de savoir** : Offrir une plateforme où d'autres peuvent apprendre et grandir.
+- **Learning through Writing**: Transforming lessons learned into enriching articles.
+- **Skills Showcase**: Demonstrating a wide range of topics and skills in cybersecurity.
+- **Knowledge Sharing**: Offering a platform where others can learn and grow.
 
-Dans le futur, j'aspire à aborder des problématiques de cybersécurité plus complexes, en les rendant compréhensibles pour tous.
+In the future, I aspire to tackle more complex cybersecurity issues, making them understandable for everyone.
 
-## Contenu du Blog
+## Blog Content
 
-Ce blog est une mosaïque de writeups de CTF, d'analyses, de tutoriels et d'articles scientifiques, conçu pour un public jeune et assoiffé de connaissance. Mon ambition est de faire de ce blog une bibliothèque de savoir, témoignant des connaissances et compétences acquises avec le temps.
-
+This blog is a mosaic of CTF writeups, analyses, tutorials, and scientific articles, designed for a young and knowledge-thirsty audience. My ambition is to make this blog a library of knowledge, testifying to the knowledge and skills acquired over time.
