@@ -29,7 +29,7 @@ github:
   username: azureeen # change to your github username
 
 discordapp:
-  username: 634345690171965460 # change to your linkedin username
+  username: 634345690171965460 # change to your discord username
 
 social:
   # Change to your full name.
@@ -90,7 +90,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: 'azureeen/azureeen-blog'
+    repo: 'azureeen/Blog'
     repo_id: 'R_kgDOKky04g'
     category: 'Blog Azureeen'
     category_id: 'DIC_kwDOKky04s4CbIE4'
