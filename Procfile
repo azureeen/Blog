@@ -1,1 +1,1 @@
-web:	jekyll serve -P 8085
+web:	JEKYLL_ENV=production bundle exec jekyll b
