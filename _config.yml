@@ -71,7 +71,7 @@ theme_mode:
 #
 # e.g. 'https://cdn.com'
 
-img_cdn: "https://azureeen.netlify.app"
+img_cdn: "https://blog.azureeen.re"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/commons/avatar.png"
@@ -92,7 +92,7 @@ comments:
   giscus:
     repo: 'azureeen/azureeen-blog'
     repo_id: 'R_kgDOKky04g'
-    category: 'HogwartsHacks'
+    category: 'Blog Azureeen'
     category_id: 'DIC_kwDOKky04s4CbIE4'
     mapping: 'pathname'# optional, default to 'pathname'
     input_position: 'bottom'# optional, default to 'bottom'
