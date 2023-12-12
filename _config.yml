@@ -173,7 +173,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [production]
+    envs: [development]
 
 exclude:
   - "*.gem"
@@ -197,5 +197,3 @@ jekyll-archives:
 
 name: Blog Post Workflow
 uses: gautamkrishnar/blog-post-workflow@1.8.4
-
-
