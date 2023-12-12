@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web:	jekyll serve -P 8085
