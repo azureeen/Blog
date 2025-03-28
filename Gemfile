@@ -23,7 +23,12 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+
 
 gem 'jekyll', '~> 4.0'
-gem 'jekyll-admin', group: :jekyll_plugins  # Si tu utilises Netlify CMS, tu pourrais avoir besoin de ce plugin
+
+
+group :jekyll_plugins do
+  gem 'jekyll-admin'
+  gem 'jekyll-compose'
+end
