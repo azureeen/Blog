@@ -1,21 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>A static website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Admin</title>
 
-  <!-- include the widget -->
+  <!-- Include the Netlify Identity Widget script -->
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  netlifyIdentity.on('init', user => {
+    if (!user) {
+      netlifyIdentity.open();
+    }
+  });
+  netlifyIdentity.init();
+</script>
+
+
+  <!-- Add some basic styling -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f3f4f6;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    .login-info {
+      margin-top: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .login-info a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    .login-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <!-- Add a menu:
-   Log in / Sign up - when the user is not logged in
-   Username / Log out - when the user is logged in
-  -->
-  <div data-netlify-identity-menu></div>
+  <div class="container">
+    <h1>Blog Admin</h1>
 
-  <!-- Add a simpler button:
-    Simple button that will open the modal.
-  -->
-  <div data-netlify-identity-button>Login with Netlify Identity</div>
+    <!-- Netlify Identity Menu -->
+    <div data-netlify-identity-menu></div>
+
+    <!-- Button to open login modal -->
+    <div data-netlify-identity-button class="button">Login with Netlify Identity</div>
+
+    <div class="login-info">
+      <p>Need an account? <a href="https://app.netlify.com/sites" target="_blank">Sign up here</a></p>
+    </div>
+  </div>
 </body>
 </html>
