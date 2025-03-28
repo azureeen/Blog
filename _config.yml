@@ -194,6 +194,15 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 
 name: Blog Post Workflow
 uses: gautamkrishnar/blog-post-workflow@1.8.4

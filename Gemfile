@@ -26,4 +26,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
 gem 'jekyll', '~> 4.0'
-gem 'jekyll-admin'  # Si tu utilises Netlify CMS, tu pourrais avoir besoin de ce plugin
+gem 'jekyll-admin', group: :jekyll_plugins  # Si tu utilises Netlify CMS, tu pourrais avoir besoin de ce plugin
