@@ -1,0 +1,14 @@
+- title: Site Vitrine pour Entreprise X
+  description: "Création d'un site vitrine moderne avec optimisation SEO et sécurité renforcée."
+  image: /assets/images/projets/entreprise-x.jpg
+  link: https://entreprise-x.com
+
+- title: Portfolio Personnel
+  description: "Mon portfolio personnel présentant mes compétences en développement web."
+  image: /assets/images/projets/portfolio.jpg
+  link: https://monportfolio.com
+
+- title: Boutique en ligne Y
+  description: "Développement d'une boutique e-commerce avec paiement sécurisé."
+  image: /assets/images/projets/boutique-y.jpg
+  link: https://boutique-y.com
