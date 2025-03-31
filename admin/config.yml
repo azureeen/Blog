@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: azureeen/Blog # Remplace avec ton propre nom de dépôt GitHub
-  branch: main # Remplace avec la branche principale de ton dépôt, si ce n'est pas `main`
+  branch: production # Remplace avec la branche principale de ton dépôt, si ce n'est pas `main`
 
 media_folder: "assets/img/uploads"  # Dossier pour les images téléchargées
 public_folder: "/img/uploads"      # URL publique des images
