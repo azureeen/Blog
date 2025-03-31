@@ -1,18 +1,12 @@
 backend:
-  name: github
-  repo: azureeen/Blog # Remplace avec ton propre nom de dépôt GitHub
-  branch: production # Remplace avec la branche principale de ton dépôt, si ce n'est pas `main`
+  name: git-gateway
+  branch: production
+  identity_url: "https://blog-arthur-trochon.netlify.app/.netlify/identity"
+  gateway_url: "https://blog-arthur-trochon.netlify.app/.netlify/git"
+  squash_merges: true
 
-media_folder: "assets/img/uploads"  # Dossier pour les images téléchargées
-public_folder: "/img/uploads"      # URL publique des images
+publish_mode: editorial_workflow
+media_folder: "assets/img/uploads"
 
-collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+site_url: https://blog-arthur-trochon.netlify.app
+logo_url: https://blog-arthur-trochon.netlify.app/assets/img/logo.svg
