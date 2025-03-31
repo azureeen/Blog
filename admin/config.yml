@@ -10,3 +10,23 @@ media_folder: "assets/img/uploads"
 
 site_url: https://blog-arthur-trochon.netlify.app
 logo_url: https://blog-arthur-trochon.netlify.app/assets/img/logo.svg
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Languages", name: "languages", widget: "list" }
+      - { label: "Image", name: "image", widget: "object", fields: [
+          { label: "Path", name: "path", widget: "string" },
+          { label: "LQPI", name: "lqpi", widget: "string" },
+          { label: "Alt Text", name: "alt", widget: "string" }
+        ]
+      }
+      - { label: "Body", name: "body", widget: "markdown" }
