@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.html
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: fr
+lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Paris
@@ -14,14 +14,12 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Arthur # the main title
+title: Azureeen # the main title
 
-tagline: Explorer, Protéger, Innover  # it will display as the sub-title
+tagline: Chronicles of a Digital Traveler  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Blog dédié à la cybersécurité, aux CTF TryHackMe et au développement web.
-    Suivez mon parcours vers le rôle de RSSI, mes projets freelance
-    et mes réflexions sur la sécurité numérique.
+  Blog and content about cybersecurity and stuff
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -36,8 +34,8 @@ discordapp:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Arthur
-  email: trochon.arthur@hotmail.com # change to your email address
+  name: Azureeen
+  email: azureeen@pm.me # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your twitter homepage
@@ -73,7 +71,7 @@ theme_mode:
 #
 # e.g. 'https://cdn.com'
 
-img_cdn: "https://blog-arthur-trochon.netlify.app"
+img_cdn: "https://blog.azureeen.re"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/commons/avatar.png"
@@ -199,3 +197,11 @@ jekyll-archives:
 
 name: Blog Post Workflow
 uses: gautamkrishnar/blog-post-workflow@1.8.4
+
+plugins:
+  - jekyll-admin
+
+# Ajouter ce paramètre pour le plugin Netlify CMS
+netlify:
+  cms:
+    path: /admin
