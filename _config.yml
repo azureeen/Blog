@@ -196,9 +196,6 @@ jekyll-archives:
     category: /categories/:name/
 
 
-name: Blog Post Workflow
-uses: gautamkrishnar/blog-post-workflow@1.8.4
-
 plugins:
   - jekyll-admin
 

@@ -1,11 +1,11 @@
-- title: Site Vitrine pour Entreprise X
-  description: "Création d'un site vitrine moderne avec optimisation SEO et sécurité renforcée."
-  image: /assets/images/projets/entreprise-x.jpg
-  link: https://entreprise-x.com
+- title: Site Vitrine pour une Educatrice Spécialisée
+  description: "Création d'un site vitrine moderne avec optimisation SEO"
+  image: /assets/images/projets/logoRomaneEduc.png
+  link: https://romanevallee.fr
 
-- title: Portfolio Personnel
+- title: Site web Assocaition Sportive Club TC Casabona
   description: "Mon portfolio personnel présentant mes compétences en développement web."
-  image: /assets/images/projets/portfolio.jpg
+  image: /assets/images/projets/logoTcCasabona.png
   link: https://monportfolio.com
 
 - title: Boutique en ligne Y
