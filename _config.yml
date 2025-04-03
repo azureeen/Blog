@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: Arthur Trochon # the main title
 
-tagline: Chronicles of a Digital Traveler  # it will display as the sub-title
+tagline: "Journal d’un futur RSSI : entre sécurité, CTF et défis tech"  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog and content about cybersecurity and stuff
