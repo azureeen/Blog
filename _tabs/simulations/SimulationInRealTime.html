@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation d'attaque en direct</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl mb-4 text-center">Simulation d'attaque en direct</h1>
+
+        <div class="flex justify-center mb-6">
+            <canvas id="attackChart" width="400" height="200"></canvas>
+        </div>
+
+        <div class="flex justify-center space-x-4 mb-6">
+            <button id="blockIPBtn" class="bg-red-600 p-2 rounded hover:bg-red-700">Bloquer IP</button>
+            <button id="analyzeLogsBtn" class="bg-blue-600 p-2 rounded hover:bg-blue-700">Analyser les Logs</button>
+            <button id="isolateServerBtn" class="bg-yellow-600 p-2 rounded hover:bg-yellow-700">Isoler Serveur</button>
+        </div>
+
+        <div class="text-center">
+            <p id="statusMessage">L'attaque est en cours...</p>
+        </div>
+    </div>
+
+    <script>
+        // Variables de l'attaque
+let attackProgress = 0; // Représente l'état actuel de l'attaque
+let attackImpact = 0; // Représente l'impact de l'attaque (de 0 à 100)
+
+// Initialisation du graphique pour l'attaque
+const ctx = document.getElementById('attackChart').getContext('2d');
+const attackChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'],
+        datasets: [{
+            label: 'Impact de l\'attaque',
+            data: Array(11).fill(0), // Les données seront mises à jour
+            borderColor: 'rgb(255, 99, 132)',
+            tension: 0.1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+        }
+    }
+});
+
+// Fonction pour simuler l'attaque
+function simulateAttack() {
+    if (attackProgress < 100) {
+        attackProgress++;
+        attackImpact += Math.random() * 3; // L'impact augmente au fur et à mesure
+
+        // Mettre à jour le graphique
+        attackChart.data.datasets[0].data[attackProgress] = attackImpact;
+        attackChart.update();
+
+        // Mettre à jour le message de statut
+        document.getElementById('statusMessage').textContent = `L'attaque est en cours, impact actuel: ${Math.round(attackImpact)}%`;
+
+        // Si l'impact atteint 100%, l'attaque est réussie
+        if (attackImpact >= 100) {
+            document.getElementById('statusMessage').textContent = "L'attaque a réussi, système compromis !";
+        }
+    }
+}
+
+// Actions à prendre par l'utilisateur
+document.getElementById('blockIPBtn').addEventListener('click', function() {
+    attackImpact -= 20; // Bloquer l'IP réduit l'impact de l'attaque
+    attackImpact = Math.max(0, attackImpact); // Ne pas laisser l'impact être inférieur à 0
+    document.getElementById('statusMessage').textContent = "IP bloquée, l'attaque est atténuée.";
+});
+
+document.getElementById('analyzeLogsBtn').addEventListener('click', function() {
+    attackImpact -= 15; // Analyser les logs ralentit l'attaque
+    attackImpact = Math.max(0, attackImpact);
+    document.getElementById('statusMessage').textContent = "Logs analysés, l'attaque est sous contrôle.";
+});
+
+document.getElementById('isolateServerBtn').addEventListener('click', function() {
+    attackImpact -= 25; // Isoler le serveur arrête l'attaque
+    attackImpact = Math.max(0, attackImpact);
+    document.getElementById('statusMessage').textContent = "Serveur isolé, l'attaque est stoppée.";
+});
+
+// Lancer l'attaque toutes les 2 secondes
+setInterval(simulateAttack, 2000);
+
+    </script>
+</body>
+</html>
