@@ -19,7 +19,7 @@ title: Arthur Trochon # the main title
 tagline: "Journal d’un futur RSSI : entre sécurité, CTF et défis tech"  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Blog and content about cybersecurity and stuff
+  Blog sur la cybersécurité et la gestion des risques. Analyses, conseils et retours d'expérience d'un futur RSSI
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,11 +28,9 @@ url: "https://azureeen.github.io"
 github:
   username: azureeen # change to your github username
 
-discordapp:
-  username: 634345690171965460 # change to your discord username
+linkedin:
+  username: trochon-arthur # change to your linkedin username
 
-linkedinprofile:
-  username:  
 
 social:
   # Change to your full name.
@@ -42,10 +40,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your twitter homepage
-    - https://github.com/azureeen # change to your github homepage
+    # - https://github.com/azureeen # change to your github homepage
     # Uncomment below to add more social links
-    - https://fr.linkedin.com/in/trochon-arthur
-    - https://tryhackme.com/p/Azureeen
+    # - https://fr.linkedin.com/in/trochon-arthur
+    # - https://tryhackme.com/p/Azureeen
 
 google_site_verification: # fill in to your verification string
 
