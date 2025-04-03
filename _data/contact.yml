@@ -1,8 +1,5 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
 - type: linkedin
   icon: 'fab fa-linkedin'
   url: 'https://fr.linkedin.com/in/trochon-arthur'

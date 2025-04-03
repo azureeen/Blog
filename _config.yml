@@ -42,7 +42,7 @@ social:
     # https://twitter.com/username # change to your twitter homepage
     # - https://github.com/azureeen # change to your github homepage
     # Uncomment below to add more social links
-    # - https://fr.linkedin.com/in/trochon-arthur
+    - https://fr.linkedin.com/in/trochon-arthur
     # - https://tryhackme.com/p/Azureeen
 
 google_site_verification: # fill in to your verification string
