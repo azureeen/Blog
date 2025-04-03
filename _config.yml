@@ -14,7 +14,7 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Azureeen # the main title
+title: Arthur Trochon # the main title
 
 tagline: Chronicles of a Digital Traveler  # it will display as the sub-title
 
@@ -74,7 +74,7 @@ theme_mode:
 img_cdn: "https://blog-arthur-trochon.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/commons/avatar.png"
+avatar: "/assets/img/commons/avatar.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
