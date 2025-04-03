@@ -6,8 +6,8 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: discordapp
-  icon: "fab fa-discord"
+- type: linkedinprofile
+  icon: "fab fa-linkedin"
 
 - type: email
   icon: "fas fa-envelope"
